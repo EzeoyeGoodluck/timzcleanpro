@@ -1,0 +1,28 @@
+<footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a class="logo" href="/">{{> logo}}<span class="logo-text"><strong>{{name}}</strong><small>{{tagline}}</small></span></a>
+        <p>Local, insured cleaners keeping homes, offices and short-let properties spotless across South Cumbria.</p>
+      </div>
+      <div>
+        <h3>Service Areas</h3>
+        <ul>{{areasListItems}}</ul>
+      </div>
+      <div>
+        <h3>Get in Touch</h3>
+        <ul>
+          <li><a href="{{telHref}}">{{phone}}</a></li>
+          <li><a href="{{emailHref}}">{{email}}</a></li>
+          <li>{{address}}</li>
+          <li><a href="{{googleMapsLink}}" target="_blank" rel="noopener">View on Google</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Opening Hours</h3>
+        <ul class="hours">{{hoursItems}}</ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">© <span data-year>2026</span> {{name}}. Fully insured &amp; trusted across South Cumbria.</div>
+    </div>
+  </footer>

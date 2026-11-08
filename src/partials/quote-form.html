@@ -1,0 +1,43 @@
+<div class="quote-card" id="contact">
+  <span class="badge">Free · No obligation</span>
+  <h3>Get your free quote</h3>
+  <p class="intro">Tell us what you need — we'll reply within a few hours.</p>
+  <form data-quote-form data-formsubmit="{{formsubmitAddress}}" data-email="{{email}}" data-phone="{{phone}}" novalidate>
+    <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+    <div class="form-row">
+      <div class="field"><label for="f-first">First name <span class="req">*</span></label><input id="f-first" name="first_name" autocomplete="given-name" required></div>
+      <div class="field"><label for="f-last">Last name <span class="req">*</span></label><input id="f-last" name="last_name" autocomplete="family-name" required></div>
+    </div>
+    <div class="field"><label for="f-email">Email <span class="req">*</span></label><input id="f-email" name="email" type="email" autocomplete="email" required></div>
+    <div class="field"><label for="f-phone">Phone <span class="req">*</span></label><input id="f-phone" name="phone" type="tel" autocomplete="tel" required></div>
+    <div class="form-row">
+      <div class="field">
+        <label for="f-service">Service <span class="req">*</span></label>
+        <select id="f-service" name="service" required>
+          <option value="">Choose…</option>
+          <option>Home Cleaning</option>
+          <option>Office Cleaning</option>
+          <option>Short-Let / Airbnb Cleaning</option>
+          <option>Specialised Cleaning (Move In/Out, End of Tenancy)</option>
+          <option>After-Party Cleaning</option>
+          <option>Deep &amp; Spring Cleaning</option>
+          <option>Not Sure / Other</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="f-property">Property <span class="req">*</span></label>
+        <select id="f-property" name="property" required>
+          <option value="">Choose…</option>
+          <option>Home</option>
+          <option>Office / Commercial</option>
+          <option>Short-Let / Holiday Let</option>
+          <option>Other</option>
+        </select>
+      </div>
+    </div>
+    {{formMessageField}}
+    <button class="btn btn--primary" type="submit">Get my free quote</button>
+    <div class="form-status" role="status" aria-live="polite"></div>
+    <p class="form-note">We respect your details. No spam, ever.</p>
+  </form>
+</div>

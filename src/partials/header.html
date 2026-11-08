@@ -1,0 +1,16 @@
+<header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="/" aria-label="{{name}} home">
+        {{> logo}}
+        <span class="logo-text"><strong>{{shortName}}</strong><small>{{tagline}}</small></span>
+      </a>
+      <button class="nav-toggle" aria-label="Menu" aria-expanded="false" aria-controls="main-nav"><span></span></button>
+      <nav class="main-nav" id="main-nav" aria-label="Main">
+        <ul>{{navItems}}</ul>
+      </nav>
+      <div class="header-actions">
+        <a class="header-phone" href="{{telHref}}">{{phone}}</a>
+        <a class="btn btn--primary btn--sm" href="/contact">Free Quote</a>
+      </div>
+    </div>
+  </header>

@@ -1,0 +1,48 @@
+{
+  "name": "TimZ Cleanpro Services",
+  "shortName": "TimZ Cleanpro",
+  "tagline": "Millom · South Cumbria",
+  "url": "https://timzcleaningproservices.co.uk",
+  "phone": "07733 811176",
+  "phoneTel": "+447733811176",
+  "email": "oluwatoyinmarian@gmail.com",
+  "address": "Millom, Cumbria, LA18, North West England",
+  "locality": "Millom",
+  "region": "Cumbria",
+  "postcode": "LA18",
+  "googleMapsLink": "https://maps.app.goo.gl/WdhwW7Trv9f8dWnK7?g_st=ic",
+  "mapEmbed": "https://www.google.com/maps?q=Millom%2CCumbria%2CLA18&output=embed",
+  "rating": "4.9",
+  "reviewCount": "27",
+  "formsubmitAddress": "oluwatoyinmarian@gmail.com",
+  "ogImage": "https://vibe.filesafe.space/1789457847475118755/assets/ee19f6f5-b406-4717-bb5d-be157ff9dd8a.png",
+  "imgLiving": "https://vibe.filesafe.space/1789457847475118755/assets/ee19f6f5-b406-4717-bb5d-be157ff9dd8a.png",
+  "imgAirbnb": "https://vibe.filesafe.space/1789457847475118755/assets/34d4a0ba-0358-4614-ac85-d691bfdc042f.png",
+  "imgOffice": "https://vibe.filesafe.space/1789457847475118755/assets/d3cd53c7-635b-4b6f-9dd5-1df1c75ac589.png",
+  "imgTenancy": "https://vibe.filesafe.space/1789457847475118755/assets/54382155-076a-4966-8fc7-e64dfb4043a1.png",
+  "areas": ["Millom", "Haverigg", "Silecroft", "Kirksanton", "Broughton-in-Furness", "Bootle"],
+  "hours": [
+    ["Mon – Fri", "8:00am – 6:00pm"],
+    ["Saturday", "9:00am – 3:00pm"],
+    ["Sunday", "By arrangement (after-party call-outs)"]
+  ],
+  "nav": [
+    ["services", "Services", "/services"],
+    ["holiday-let-cleaning", "Holiday Lets", "/holiday-let-cleaning"],
+    ["pricing", "Pricing", "/pricing"],
+    ["reviews", "Reviews", "/reviews"],
+    ["areas-we-cover", "Areas", "/areas-we-cover"],
+    ["faq", "FAQ", "/faq"],
+    ["about", "About", "/about"],
+    ["contact", "Contact", "/contact"]
+  ],
+  "explore": {
+    "services": ["All Services", "/services"],
+    "holiday-let-cleaning": ["Holiday-Let Cleaning", "/holiday-let-cleaning"],
+    "pricing": ["Pricing Guide", "/pricing"],
+    "reviews": ["Customer Reviews", "/reviews"],
+    "areas-we-cover": ["Areas We Cover", "/areas-we-cover"],
+    "faq": ["FAQs", "/faq"],
+    "about": ["About Us", "/about"]
+  }
+}
